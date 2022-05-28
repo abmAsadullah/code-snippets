@@ -1,0 +1,25 @@
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('./img/pre01.gif') no-repeat center center;
+}
+
+#content {
+    text-align: center;
+    animation: 2s fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
